@@ -9,7 +9,7 @@ if (empty($_POST['EMAIL'])) {
 
 print($_POST['EMAIL']);
 
-$query = 'INSERT INTO INTERESTS VALUES ("", '.$_POST['EMAIL'].', "");';
+$query = "INSERT INTO INTERESTS VALUES ('', '".$_POST['EMAIL']."', '');";
 
 mysql_query($query) OR die("ERROR");
 
