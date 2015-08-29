@@ -1,0 +1,107 @@
+html {
+  background: url("../images/Hero Image_Edited.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+@font-face {
+	font-family: Averta-regular;
+	src: url("../fonts/Averta/Averta.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Averta-bold;
+	src: url("../fonts/Averta/Averta Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Averta-semibold;
+	src: url("../fonts/Averta/Averta Semibold.otf") format("opentype");
+}
+
+.center {
+	margin: auto;
+}
+
+#welcomeTitle {
+	color: #FFFFFF;
+	font-family: Averta-bold;
+	font-size: 40pt;
+	text-align: center;
+	margin-top: 14%;
+}
+
+#welcomeSubtitle {
+	color: #FFFFFF;
+	font-family: Averta-semibold;
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#introQuestion {
+	color: #FFFFFF;
+	font-family: Averta-semibold;
+	font-size: 22pt;
+	text-align: center;
+}
+
+#comingSoonText {
+	color: #FFFFFF;
+	font-family: Averta-regular;
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.answerButton {
+	height: 50px;
+	width: 250px;
+	background-color: #8AC9B4;
+	display: inline-block;
+	color: #FFFFFF;
+	font-family: Averta-regular;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 50px;
+}
+
+.submitButton {
+	height: 35px;
+	width: 200px;
+	background-color: #8AC9B4;
+	color: #FFFFFF;
+	font-family: Averta-semibold;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 35px;
+	font-size: 12pt;
+	display: block;
+	text-decoration: none;
+}
+
+.emailField {
+	height: 28px;
+	width: 194px;
+	border-radius: 5px;
+	position: relative; 
+	left: 50%; 
+	margin-left: -100px;
+	margin-bottom: 20px;
+	font-family: Averta-regular;
+	font-size: 12pt;
+	border-color: #8AC9B4;
+}
+
+p, div {
+	letter-spacing: 1px;
+}

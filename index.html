@@ -1,3 +1,40 @@
-Hello, world!
+<!doctype html>
 
-This is Tim!
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Welcome to Apt</title>
+		
+		<link rel="stylesheet" href="css/styles.css?v=1.0">
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/welcome.js"></script>
+		
+		<div id="wrap">
+			<div id="main">
+				<p id="welcomeTitle" class="center">Welcome to Apt</p>
+				<p id="welcomeSubtitle" class="center">Find great roommates</p>
+			</div>
+			<div/>
+			<div id="submitForm">
+				<!-- <p id="introQuestion" class="center">What are you looking for?</p> -->
+				<p id="comingSoonText" class="center">Coming soon to NYC.<br/><br/>Sign up below and we'll let<br/>you know when we're live.</p>
+				
+				<input id="emailField" class="emailField" type="email"></input>
+				<a href="javascript:submitInterest();" class="submitButton center">Submit</a>
+				
+				<!-- <div class="center">
+					<span class="answerButton">A Room</span>
+					<span class="answerButton">A Roommate</span>
+				</div> -->
+			</div>
+		</div>
+	</body>
+</html>
