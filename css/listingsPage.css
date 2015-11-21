@@ -1,0 +1,210 @@
+@media (max-width: @screen-xs) {
+    body{font-size: 8px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+.topHeader {
+    background-color: #8AC9B4;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: Averta-regular;
+}
+
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+div {
+    
+}
+
+#imageContainer {
+    height: 300px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-family: Averta-regular;
+}
+
+.matchScoreCircle {
+    background-color: #FFBCAB;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    line-height: 50px;
+}
+
+.profileMatchScore {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#listingContentContainer {
+    font-family: Averta-regular;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#leftContentContainer {
+    width: 60%;
+    margin-right: 50px;
+}
+
+#rightContentContainer {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.majorButton {
+    background-color: #FFBCAB;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px
+}
+
+#titleContainer {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#subTitleContainer {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+#rentInfoContainer {
+    /* Rectangle 106: */
+    background: #FFDFAF;
+/* $1,200 per month: */
+    font-family: .HelveticaNeueDeskInterface-Regular;
+    font-size: 32px;
+    color: #000000;
+    line-height: 38px;
+/* $1,200 / month copy: */
+    font-family: .HelveticaNeueDeskInterface-Regular;
+    font-size: 6px;
+    color: #000000;
+    line-height: 7px;
+    height: 110px
+}
+
+.listingsSectionHeader {
+    font-size: 20px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.listingsSectionBody {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.roommateProfileContainer {
+    float: left;
+    width: 50%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.profilePictureCircle {
+    background-color: lightgray;
+    height: inherit;
+    border-radius: 60px;
+    width: 60px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+}
+
+.roommateNameContainer {
+    height: 50%;
+    line-height: 30px;
+    margin-left: 70px;
+        display: inline-block;
+
+}
+
+.socialMediaIcon {
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 10px;
+        display: inline-block;
+
+}
+
+.facebookIcon {
+    background-color: dodgerblue;
+}
+
+.twitterIcon {
+    background-color: deepskyblue;
+}
+
+.pinterestIcon {
+    background-color: orangered;
+}
+
+.roommatesListingsSectionBody {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.mapViewContainer {
+    background-color: lightgray;
+    height: 180px;
+    color: white;
+    text-align: center;
+    line-height: 180px;
+    
+}
+
+.apartmentCultureTableRow {
+    display: table-row;
+}
+
+.apartmentCultureTableCellRight {
+    display: table-cell;
+    color: #8DA9C7;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+#apartmentCultureTable {
+    display: table;
+    height: 200px;
+}
+
+.apartmentCultureTableHeader {
+    display: table-header-group;
+    column-span: 2;
+}
+
+.apartmentCultureTableCellLeft {
+    display: table-cell;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+}
